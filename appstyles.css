@@ -47,7 +47,7 @@ button {
 }
 
 
-.translate {
+#translate-output {
     box-sizing: border-box;
     /* display: block; */
     width: 100%;
@@ -55,7 +55,8 @@ button {
     max-height: 20vh;
     overflow:scroll;
     border: 1px solid var(--black);
-    padding-bottom: 5rem;
+    padding-bottom: 1rem;
+    padding-top: 0rem;
 }
 
 footer {

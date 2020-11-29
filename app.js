@@ -18,6 +18,7 @@ function errorHandler(error) {
 function clickHandler(){
     // outputDiv.innerText ="dhehdiudeidjiooew " + txtInput.value;
     var inputText = txtInput.value;//taking input
+    
     //calling server for processing
     fetch(getTranslationURL(inputText))
     .then(response => response.json())
@@ -28,6 +29,8 @@ function clickHandler(){
     .catch(errorHandler)
 };
 btnTranslate.addEventListener("click", clickHandler)
+// var finalURL = constructURL(input);
+//     console.log(finalURL);
 
 
 
