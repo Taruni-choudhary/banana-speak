@@ -53,9 +53,9 @@ button {
     box-sizing: border-box;
     display: block;
     width: 100%;
-    min-height: 20vh;
+    min-height: 10vh;
     max-height: 20vh;
-    /* overflow:scroll; */
+    overflow:scroll;
     border: 1px solid var(--black);
     padding-bottom: 1rem;
     padding-top: 0rem;
