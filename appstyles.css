@@ -75,6 +75,7 @@ footer {
 
 footer p {
     max-width: var(--width-break);
+    padding-top: 1rem;
     margin: auto;
 }
 
