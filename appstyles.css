@@ -70,7 +70,7 @@ footer {
     padding: 0rem;
     background-color: var(--primary);
     text-align: center;
-    margin: auto;
+    margin-bottom: 0rem;
 }
 
 footer p {
