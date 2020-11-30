@@ -1,18 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@1,400;1,700&display=swap');
 
 * {
     box-sizing: border-box;
 }
 
 :root {
-    --primary: #F2C94C;
+    --primary:#FCD34D;
     --black: #333333;
     --width-break:600px
 }
 
 body {
     margin: 0;
-    font-family: 'Kalam', cursive;
+    /* font-family: 'Kalam', cursive; */
+    font-family: 'PT Sans', sans-serif;
     color: #333333;
 }
 
@@ -47,13 +49,13 @@ button {
 }
 
 
-#translate-output {
+.translate {
     box-sizing: border-box;
-    /* display: block; */
+    display: block;
     width: 100%;
-    min-height: 10vh;
+    min-height: 20vh;
     max-height: 20vh;
-    overflow:scroll;
+    /* overflow:scroll; */
     border: 1px solid var(--black);
     padding-bottom: 1rem;
     padding-top: 0rem;
@@ -63,7 +65,7 @@ footer {
     position: absolute;
     bottom: 0;
     width: 100%;
-    padding: 0rem;
+    padding-bottom: 1rem;
     background-color: var(--primary);
     text-align: center;
 }
