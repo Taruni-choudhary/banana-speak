@@ -58,7 +58,7 @@ button {
     overflow:scroll;
     border: 1px solid var(--black);
     padding-bottom: 1rem;
-    padding-top: 0rem;
+    padding-top: 1rem;
 }
 
 footer {
