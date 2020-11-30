@@ -65,7 +65,7 @@ footer {
     position: absolute;
     bottom: 0;
     width: 100%;
-    padding-bottom: 1rem;
+    padding: 0rem;
     background-color: var(--primary);
     text-align: center;
 }
