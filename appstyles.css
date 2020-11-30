@@ -68,10 +68,10 @@ footer {
     /* top: 0; */
     bottom: 0;
     width: 100%;
-    padding: 1rem;
+    padding: 0rem;
     background-color: var(--primary);
     text-align: center;
-    margin: auto;
+    /* margin: auto; */
 }
 
 footer p {
